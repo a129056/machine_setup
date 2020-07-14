@@ -53,12 +53,15 @@ choco install -y visualstudio2019-workload-visualstudioextension
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-edge
 
-#--- Tools ---
+#--- Node ---
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
 # choco install -y nodejs # Node.js Current, Latest features
 choco install visualstudio2019buildtools
 choco install -y visualstudio2019-workload-vctools
-choco install -y python2 # Node.js requires Python 2 to build native modules
+choco install -y python # Node.js requires Python  to build native modules
+
+choco install azure-functions-core-tools
+choco install servicebusexplorer
 
 #--- Configure Windows environment .gitconfig, PowerShell ---
 executeScript "ConfigureWindowsEnvironment.ps1";
