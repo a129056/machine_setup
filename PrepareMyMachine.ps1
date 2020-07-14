@@ -1,5 +1,5 @@
 # Description: Boxstarter Script  
-# Author: Laurent Kempé
+# Author: Modified from Microsoft and Laurent Kempé
 # Dev settings for my app development
 
 Disable-UAC
